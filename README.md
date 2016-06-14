@@ -1,4 +1,14 @@
 #    CVE-Search Changelog
+
+##   What's new in CVE-Search v2.1?
+
+ * Plug-in manager bugfixes and features
+ * Use datetime objects in the database
+ * password change option in web interface
+ * code revision
+ 
+The upgrade from CVE-Search v1.x or v2 to v2.1 requires a database refill. Run the `./sbin/db_updater` script with the `-f` option to do this and keep the user data.
+
 ##   What's new in CVE-Search v2?
 
  * Plug-in manager
