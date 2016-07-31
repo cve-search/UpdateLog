@@ -9,6 +9,8 @@
  
 The upgrade from CVE-Search v1.x or v2 to v2.1 requires a database refill. Run the `./sbin/db_updater` script with the `-f` option to do this and keep the user data.
 
+**Note:** The above comand might influence the database dates. If you wish to keep the dates as-is, read the steps [here](v2_to_v2.1/db_actions.md)
+
 ##   What's new in CVE-Search v2?
 
  * Plug-in manager
