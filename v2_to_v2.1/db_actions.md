@@ -11,4 +11,6 @@ db.cves.find().forEach(function(doc){
   if(doc["cvss-time"]){     doc["cvss-time"]     = ISODate(doc["cvss-time"]) }
   db.cves.update({id: doc["id"]}, doc)
 });
+
+db.info.drop()
 ```
